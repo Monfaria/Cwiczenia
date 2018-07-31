@@ -5,6 +5,7 @@ class Pencils {
     int width;
     int numberInBox;
     int price;
+    int numberShops;
 }
 
 class PencilsTest{
@@ -14,6 +15,7 @@ class PencilsTest{
         MaxFactor.width = 20;
         MaxFactor.numberInBox = 20;
         MaxFactor.price = 1000;
+        MaxFactor.numberShops = 800;
 
         System.out.println("Dlugosc olowka to: "+ MaxFactor.length);
         System.out.println("Grubosc olowka to: "+ MaxFactor.width);
